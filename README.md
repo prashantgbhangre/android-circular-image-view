@@ -29,12 +29,15 @@ Or
 
 For Java File 
   Declare following line in class:
+  
          com.prashantb.lib_circular_image_view.MyImageView iv_sample;
 
   in Oncreate write following sentanses:
+  
          iv_sample = (com.prashantb.lib_circular_image_view.MyImageView)findViewById(R.id.iv_sample);
 		     iv_sample.setStroke(10);
 		     iv_sample.setStrokeColor(Color.GRAY);
 
 It Looks Like 
 
+![](https://github.com/prashantgbhangre/android_circular-image-view/blob/master/image_smartphone.png)
