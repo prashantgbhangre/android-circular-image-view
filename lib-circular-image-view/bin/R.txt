@@ -1,0 +1,11 @@
+int attr percentage 0x7f010002
+int attr percentageColorBackground 0x7f010003
+int attr percentageColorForground 0x7f010004
+int attr stroke 0x7f010000
+int attr strokeColor 0x7f010001
+int[] styleable MyImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable MyImageView_percentage 2
+int styleable MyImageView_percentageColorBackground 3
+int styleable MyImageView_percentageColorForground 4
+int styleable MyImageView_stroke 0
+int styleable MyImageView_strokeColor 1

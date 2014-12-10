@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<declare-styleable name="MyImageView">
+	    <attr name="stroke" format="integer"></attr>
+	    <attr name="strokeColor" format="color"></attr>
+	    
+	    <attr name="percentage" format="integer"></attr>
+	    <attr name="percentageColorBackground" format="color"></attr>	    
+	    <attr name="percentageColorForground" format="color"></attr>
+	    	    
+	    	    
+	</declare-styleable>
+</resources>
