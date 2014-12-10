@@ -16,18 +16,28 @@ Android Customized Circular Image View
 
 For Xml Add following code
 
-<com.prashantb.lib_circular_image_view.MyImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/face"
-        app:stroke="10"
-        app:strokeColor="#ff0000" />
+	<com.prashantb.lib_circular_image_view.MyImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/face"
+	        app:stroke="10"
+	        app:strokeColor="#ff0000" />
 
 Or 
 
 For Java File 
+  In XML
+  	
+  	<com.prashantb.lib_circular_image_view.MyImageView
+	  	android:id="@+id/iv_sample"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/face"/>
+	        
   Declare following line in class:
   
          com.prashantb.lib_circular_image_view.MyImageView iv_sample;
@@ -37,7 +47,6 @@ For Java File
          iv_sample = (com.prashantb.lib_circular_image_view.MyImageView)findViewById(R.id.iv_sample);
 		     iv_sample.setStroke(10);
 		     iv_sample.setStrokeColor(Color.GRAY);
-
 It Looks Like 
 
 ![](https://github.com/prashantgbhangre/android_circular-image-view/blob/master/image_smartphone.png)
